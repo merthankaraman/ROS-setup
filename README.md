@@ -19,3 +19,9 @@ git clone https://github.com/merthankaraman/ROS-setup.git
 cd ROS-setup/
 bash Melodic-setup.sh
 ```
+## To install Arduino and Arduino ROS library
+
+```bash
+cd ~/ROS-setup/
+bash arduino.sh
+```
