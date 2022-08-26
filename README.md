@@ -1,6 +1,6 @@
 # ROS-setup
  
-## İnstall
+## Install
 
 ```bash
 cd ~
