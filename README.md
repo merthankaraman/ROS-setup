@@ -22,6 +22,6 @@ bash Melodic-setup.sh
 ## To install Arduino and Arduino ROS library
 
 ```bash
-cd ~/Setup-ws/
+cd ~/ROS-setup/Setup-ws/
 bash arduino.sh
 ```
