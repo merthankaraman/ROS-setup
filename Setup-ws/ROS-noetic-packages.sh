@@ -11,6 +11,7 @@ sudo apt-get install ros-noetic-gmapping
 sudo apt-get install ros-noetic-slam-*
 sudo apt-get install ros-noetic-effort-controllers
 sudo apt-get install ros-noetic-position-controllers
+sudo apt-get install ros-noetic-velocity-controllers
 sudo apt-get install ros-noetic-diff-drive-controller
 sudo apt-get install ros-noetic-teleop-twist-keyboard
 sudo apt-get install ros-noetic-joint-state-publisher-gui 
