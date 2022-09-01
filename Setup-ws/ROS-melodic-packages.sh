@@ -11,6 +11,7 @@ sudo apt-get install ros-melodic-gmapping
 sudo apt-get install ros-melodic-slam-*
 sudo apt-get install ros-melodic-effort-controllers
 sudo apt-get install ros-melodic-position-controllers
+sudo apt-get install ros-melodic-velocity-controllers
 sudo apt-get install ros-melodic-diff-drive-controller
 sudo apt-get install ros-melodic-teleop-twist-keyboard
 sudo apt-get install ros-melodic-joint-state-publisher-gui 
