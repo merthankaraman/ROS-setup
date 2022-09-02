@@ -27,6 +27,7 @@ sudo apt-get install ros-noetic-usb-cam
 sudo apt-get install ros-noetic-find-object-2d
 sudo apt-get install ros-noetic-dwa-local-planner
 sudo apt-get install ros-noetic-ros-control
+sudo apt-get install ros-noetic-joy
 
 sudo apt-get install ros-noetic-rosserial-*
 sudo apt-get install ros-noetic-hector-*
