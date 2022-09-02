@@ -27,6 +27,7 @@ sudo apt-get install ros-melodic-usb-cam
 sudo apt-get install ros-melodic-find-object-2d
 sudo apt-get install ros-melodic-dwa-local-planner
 sudo apt-get install ros-melodic-ros-control
+sudo apt-get install ros-melodic-joy
 
 sudo apt-get install ros-melodic-rosserial-*
 sudo apt-get install ros-melodic-hector-*
