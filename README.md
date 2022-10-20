@@ -3,11 +3,8 @@
 ## To install ROS-Noetic
 
 ```bash
-<<<<<<< Updated upstream
 sudo apt update -y && sudo apt upgrade -y
-=======
 sudo apt update -y
->>>>>>> Stashed changes
 cd ~
 sudo apt install git -y
 git clone https://github.com/merthankaraman/ROS-setup.git
@@ -18,11 +15,8 @@ bash Noetic-setup.sh
 ## To install ROS-Melodic
 
 ```bash
-<<<<<<< Updated upstream
 sudo apt update -y && sudo apt upgrade -y
-=======
 sudo apt update -y
->>>>>>> Stashed changes
 cd ~
 sudo apt install git -y
 git clone https://github.com/merthankaraman/ROS-setup.git
