@@ -34,7 +34,7 @@ sudo apt-get install ros-noetic-hector-*
 sudo apt-get install ros-noetic-turtlebot*
 sudo apt-get install ros-noetic-freenect-*
 
-#echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
 
 #mkdir -p ~/catkin_ws/src
