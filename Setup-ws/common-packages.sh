@@ -6,7 +6,7 @@ sudo apt-get install python3-opencv
 #sudo dpkg -i vscode.deb && sudo rm vscode.deb
 sudo apt install snapd
 sudo snap install leafpad
-sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+sudo apt install python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
 sudo apt install curl
 #sudo apt install freecad
 #sudo snap install fusion360 --beta --devmode
