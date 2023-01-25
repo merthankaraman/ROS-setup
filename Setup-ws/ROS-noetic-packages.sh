@@ -5,6 +5,7 @@ sudo apt update
 sudo apt update
 sudo apt --fix-broken install
 sudo apt install ros-noetic-desktop-full
+sudo apt install python3-rosdep 
 sudo rosdep init
 sudo rosdep fix-permissions
 rosdep update
