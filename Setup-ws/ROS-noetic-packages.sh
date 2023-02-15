@@ -2,9 +2,11 @@ yes | bash common-packages.sh
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
 sudo apt update
+sudo apt --fix-broken install
+sudo apt update
+sudo apt upgrade
 sudo apt install python3-rosdep 
 sudo apt update
-sudo apt --fix-broken install
 sudo apt install ros-noetic-desktop-full
 sudo rosdep init
 sudo rosdep fix-permissions
@@ -40,9 +42,9 @@ sudo apt-get install ros-noetic-freenect-*
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
 
-#mkdir -p ~/catkin_ws/src
-#cd ~/catkin_ws
-#catkin_make
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws
+catkin_make
 
 #cd ~/catkin_ws/src
 #catkin_create_pkg first_package std_msgs rospy roscpp
