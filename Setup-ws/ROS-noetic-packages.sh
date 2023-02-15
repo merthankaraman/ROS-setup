@@ -41,6 +41,7 @@ sudo apt-get install ros-noetic-freenect-*
 
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
+source ~/.bashrc
 
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws
