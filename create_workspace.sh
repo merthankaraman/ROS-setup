@@ -9,4 +9,5 @@ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 echo "alias cw='cd ~/catkin_ws'" >> ~/.bashrc
 echo "alias cs='cd ~/catkin_ws/src'" >> ~/.bashrc
 echo "alias cm='cd ~/catkin_ws && catkin_make'" >> ~/.bashrc
+echo "alias killgazebo='killall -9 gzserver gzclient'" >> ~/.bashrc
 source ~/.bashrc
